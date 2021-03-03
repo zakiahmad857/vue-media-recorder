@@ -76,8 +76,6 @@ export default {
     },
     capture() {
       this.showVideo = false;
-      this.canvasElement.width = this.videoPlayer.videoWidth;
-      this.canvasElement.height = this.videoPlayer.videoHeight;
 
       var context = this.canvasElement.getContext("2d");
       context.translate(this.canvasElement.width, 0);
